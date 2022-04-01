@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--Pale-blue);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p{
+    font-size: 16px;
+}
+
+.bg_img{
+    background: url(./images/pattern-background-mobile.svg) no-repeat center/cover;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.boxone{
+    background-color: #ffffff;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.boxone img.boy{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+}
+
+.boxtwo h1{
+    margin-bottom: 20px;
+}
+
+.boxtwo p{
+    color: var(--Desaturated-blue);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.boxone .boxthree{
+    background-color: var(--Very-pale-blue);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 10px 70px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.boxone .boxthree article{
+    display: flex;
+}
+
+.boxone .boxthree article img{
+    margin-right: 20px;
+}
+
+.boxthree .box3_1 p{
+    color: var(--Desaturated-blue);
+}
+
+.boxone .boxthree a{
+    color: var(--Bright-blue);
+    font-size: 14px;
+}
+
+.boxone .boxfour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.boxfour .bt1{
+    background-color: var(--Bright-blue);
+    margin: 20px;
+    padding: 20px 80px;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bold;
+}
+
+.boxfour .bt2{
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
